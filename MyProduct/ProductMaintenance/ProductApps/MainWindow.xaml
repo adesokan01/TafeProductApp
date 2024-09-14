@@ -18,8 +18,12 @@
         <StackPanel Orientation="Horizontal" Margin="150" HorizontalAlignment="Right">
             <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
             <TextBlock Name="totalChargeTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
             <Label Content="Total Charge after wrap = TotalPayment + $25.00 + $5.00" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0"/>
-
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="60">
+            <Label Content="Total Charge After GST (@10%)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0"/>
         </StackPanel>
     </Grid>
 </Window>

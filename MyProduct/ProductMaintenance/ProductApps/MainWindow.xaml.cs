@@ -45,9 +45,11 @@ namespace ProductApps
             double totalPayment = 100.00; // Example amount
             double deliveryCharge = 25.00;
             double wrappingCharge = 5.00;
-            double totalCharge = totalPayment + deliveryCharge + wrappingCharge;
+            double gstRate = 0.10;
+            double totalCharge = (totalPayment + deliveryCharge + wrappingCharge) * (1 + gstRate);
 
             totalChargeTextBox.Text = $"${totalCharge}";
+
         }
 
 
