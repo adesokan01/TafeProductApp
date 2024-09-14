@@ -38,3 +38,4 @@ C:\MyProduct\ProductMaintenance\ProductApps\obj\Debug\ProductApps.csproj.Generat
 C:\MyProduct\ProductMaintenance\ProductApps\obj\Debug\ProductApps.csproj.CoreCompileInputs.cache
 C:\MyProduct\ProductMaintenance\ProductApps\obj\Debug\ProductApps.exe
 C:\MyProduct\ProductMaintenance\ProductApps\obj\Debug\ProductApps.pdb
+C:\MyProduct\ProductMaintenance\ProductApps\obj\Debug\ProductApps.csproj.AssemblyReference.cache

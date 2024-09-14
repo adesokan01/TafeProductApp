@@ -44,10 +44,12 @@ namespace ProductApps
         {
             double totalPayment = 100.00; // Example amount
             double deliveryCharge = 25.00;
-            double totalCharge = totalPayment + deliveryCharge;
+            double wrappingCharge = 5.00;
+            double totalCharge = totalPayment + deliveryCharge + wrappingCharge;
 
             totalChargeTextBox.Text = $"${totalCharge}";
         }
+
 
         private void clearButton_Click(object sender, RoutedEventArgs e)
         {
@@ -56,6 +58,7 @@ namespace ProductApps
             quantityTextBox.Text = "";
             totalPaymentTextBlock.Text = "";
         }
+
 
         private void closeButton_Click(object sender, RoutedEventArgs e)
         {
