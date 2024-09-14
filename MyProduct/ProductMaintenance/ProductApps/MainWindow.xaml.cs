@@ -40,6 +40,14 @@ namespace ProductApps
                 MessageBox.Show("Enter data again", "Data Entry Error");
             }
         }
+        private void CalculateTotalCharge()
+        {
+            double totalPayment = 100.00; // Example amount
+            double deliveryCharge = 25.00;
+            double totalCharge = totalPayment + deliveryCharge;
+
+            totalChargeTextBox.Text = $"${totalCharge}";
+        }
 
         private void clearButton_Click(object sender, RoutedEventArgs e)
         {
